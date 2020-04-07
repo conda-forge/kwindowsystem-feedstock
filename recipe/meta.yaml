@@ -1,5 +1,5 @@
 {% set name = "kwindowsystem" %}
-{% set version = "5.67.0" %}
+{% set version = "5.68.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kwindowsystem-{{ version }}.tar.xz
-  sha256: 6ec04272ef5beb4e10ef9af65d10b10df454ce7fe00534fa6f807246c2ba24fe
+  sha256: 859c930a04c2588f792bfb9a28ed40b226db632b15c2851b186301b70d4c825a
 
 build:
   number: 0
@@ -53,7 +53,7 @@ about:
   license: LGPL-v2.1-or-later
   license_family: GPL
   license_file: COPYING.LIB
-  summary: 'Access to the windowing system'
+  summary: Access to the windowing system
   description: |
     Convenience access to certain properties and features of the windowing system.
   dev_url: https://cgit.kde.org/kwindowsystem.git/tree
