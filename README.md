@@ -3,11 +3,13 @@ About kwindowsystem
 
 Home: https://api.kde.org/frameworks/kwindowsystem/html/index.html
 
-Package license: LGPL-v2.1-or-later
+Package license: LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL AND MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kwindowsystem-feedstock/blob/master/LICENSE.txt)
 
 Summary: Access to the windowing system
+
+Development: https://cgit.kde.org/kwindowsystem.git/tree
 
 Convenience access to certain properties and features of the windowing system.
 
