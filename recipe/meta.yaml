@@ -11,7 +11,7 @@ source:
   sha256: 8dced74012bed3f33c3c51874aa9c3a57093573c1c0e263b758cefa96c26f7b7
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
   run_exports:
     - {{ pin_subpackage('kwindowsystem', max_pin='x.x') }}
@@ -33,7 +33,7 @@ requirements:
     - xorg-libxfixes  # [linux]
     - xorg-libxext
     - xorg-libx11
-    - qt
+    - qt-main
     - libxcb
     - xcb-util
     - xcb-util-wm
